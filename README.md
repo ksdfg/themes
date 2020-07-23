@@ -44,22 +44,28 @@ Adapta Nokto theme for Telegram Desktop application, with a few colour correctio
 
 ### MinimalX VLC
 
-This is probably the only thing in here that is not Adapta-Nokto themed, cuz I didn't like the base VLC interface enough to just dress it up in Adapta-Nokto theme using kvantum. This instead gives a sleek minimal feel that really modernises VLC. To use this, go to 
+This is probably the only thing in here that is not Adapta-Nokto themed, cuz I didn't like the base VLC interface even after dressing it up in Adapta-Nokto theme. This instead gives a sleek minimal feel that really modernises VLC. To use this, go to 
 
     VLC -> Tools -> Preferences -> Use Custom Skin -> choose this file
 
 [No repo found for this, but I think this download link is the original source](https://www.deviantart.com/maverick07x/art/VLC-MinimalX-385698882)
 
-### darkstylesheet qbtheme
+## Qt5 applications
 
-I tried getting qbittorrent to follow Adapta-Nokto using kvantum, but didn't work. For now, I'm using this qbtheme as a replacememnt. Not nearly as good as Adapta tho :(...
+Since Adapta-Nokto used here is a GTK+ theme (and I use Cinnamon with mostly Gnome apps), we need to force all Qt5 to use the GTK2 theme with the help of the *Qt5 Configurator Tool*.
 
-To install, go to
+- Install the `qt5ct` and `qt5-styleplugins` packages
 
-    qBittorrent -> Preferences -> Use Custom UI theme -> select this style
+- Add the following to `~/.profile` or `/etc/environment`
 
-[The original source can be found here](https://github.com/jagannatharjun/qbt-theme)
+    ```
+    # Qt5 configurator
+    QT_QPA_PLATFORMTHEME=qt5ct
+    ```
 
+- Reboot
+
+- run `qt5ct` and set style to `gtk2`
 
 ## Suggested themes that are not included in this repo
 
