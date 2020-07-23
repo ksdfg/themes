@@ -50,21 +50,3 @@ For example:
 #### Set the right resolution of your display
 
 On the grub screen, `press c` to get the commandline, and enter `vbeinfo` or `videoinfo` on EFI boot to check what resolutions you can use, then edit `/etc/default/grub` , add your resolution `GRUB_GFXMODE=****x****x32` into it, last you can run `grub-mkconfig -o /boot/grub/grub.cfg` to update your grub.cfg.
-
-## Screenshots
-
-### Vimix grub theme
-
-![vimix grub theme](screenshots/grub-theme-vimix.jpg?raw=true)
-
-### Stylish grub theme
-
-![Stylish grub theme](screenshots/grub-theme-stylish.jpg?raw=true)
-
-### Tela grub theme
-
-![Tela grub theme](screenshots/grub-theme-tela.jpg?raw=true)
-
-### Slaze grub theme
-
-![Slaze grub theme](screenshots/grub-theme-slaze.jpg?raw=true)
