@@ -58,7 +58,7 @@ To install, go to
 
     qBittorrent -> Preferences -> Use Custom UI theme -> select this style
 
-[The original source can be found here](https://github.com/jagannatharjun/qbt-theme))
+[The original source can be found here](https://github.com/jagannatharjun/qbt-theme)
 
 
 ## Suggested themes that are not included in this repo
