@@ -30,7 +30,11 @@ An Adapta-Nokto based Material theme for the Mailspring mail client. You can jus
 
     Mailspring -> Edit -> Install theme -> select this folder
 
-and Mailspring will install this theme. You do not need this folder after installing. To set the theme, go to Mailspring -> Edit -> Change theme and select `Material`. Maybe not the best visibility wise, but I can live with it and tbh can't find anything better or even close to this.
+and Mailspring will install this theme. You do not need this folder after installing. To set the theme, go to 
+
+    Mailspring -> Edit -> Change theme -> select `Material`
+    
+Maybe not the best visibility wise, but I can live with it and tbh can't find anything better or even close to this.
 
 [The original source can be found here](https://github.com/ferlanero/mailspring-material-adapted)
 
@@ -79,7 +83,7 @@ Install the `Material Theme UI` plugin, then select the `Oceanic` theme
 
 ### Icons
 
-Adapta suggests you go with the [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme), but I personally use [Sweet Folders](https://github.com/EliverLara/Sweet-folders) with [Candy Icons](https://github.com/EliverLara/candy-icons) cuz I like the neon aesthetics (but the [Sweet theme](https://github.com/EliverLara/Sweet) was a little too much for me)
+Adapta suggests you go with the [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme), but I personally use [Sweet Rainbow Folders](https://github.com/EliverLara/Sweet-folders) with [Candy Icons](https://github.com/EliverLara/candy-icons) cuz I like the neon aesthetics (but the [Sweet theme](https://github.com/EliverLara/Sweet) was a little too much for me)
 
 ### Cursors
 
