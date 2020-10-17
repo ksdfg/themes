@@ -8,19 +8,19 @@ I made this repo so that I can quickly setup my system in case of a reinstall / 
 
 ### Adapta-Nokto
 
-The basic GTK3 Theme that the system follows. Uses Material design with a cyan-blue color scheme. Downloaded from the Cinnamon Themes centre. 
+The basic GTK3 Theme that the system follows. Uses Material design with a cyan-blue color scheme. Downloaded from the Cinnamon Themes centre.
 
 [The original source can be found here](https://github.com/adapta-project/adapta-gtk-theme).
 
 ### GRUB2 theme
 
-I use the `Slaze` theme from this pack. To install it, simply run 
+I use the `Slaze` theme from this pack. To install it, simply run
 
 ```shell
 install.sh --slaze
-``` 
+```
 
-and it will generate all the config files and install the theme for you. A readme (from the original repo) is present in the folder with more detailed instructions. 
+and it will generate all the config files and install the theme for you. A readme (from the original repo) is present in the folder with more detailed instructions.
 
 [The original source can be found here](https://github.com/vinceliuice/grub2-themes)
 
@@ -30,17 +30,17 @@ An Adapta-Nokto based Material theme for the Mailspring mail client. You can jus
 
     Mailspring -> Edit -> Install theme -> select this folder
 
-and Mailspring will install this theme. You do not need this folder after installing. To set the theme, go to 
+and Mailspring will install this theme. You do not need this folder after installing. To set the theme, go to
 
     Mailspring -> Edit -> Change theme -> select `Material`
-    
+
 Maybe not the best visibility wise, but I can live with it and tbh can't find anything better or even close to this.
 
 [The original source can be found here](https://github.com/ferlanero/mailspring-material-adapted)
 
 ### Adapta Nokto tdesktop-theme
 
-Adapta Nokto theme for Telegram Desktop application, with a few colour corrections of my own. To install, open telegram-desktop, go to 
+Adapta Nokto theme for Telegram Desktop application, with a few colour corrections of my own. To install, open telegram-desktop, go to
 
     Settings -> Chat Settings -> Chat Backgrounds -> Choose from file and select this file.
 
@@ -48,7 +48,7 @@ Adapta Nokto theme for Telegram Desktop application, with a few colour correctio
 
 ### MinimalX VLC
 
-This is probably the only thing in here that is not Adapta-Nokto themed, cuz I didn't like the base VLC interface even after dressing it up in Adapta-Nokto theme. This instead gives a sleek minimal feel that really modernises VLC. To use this, go to 
+This is probably the only thing in here that is not Adapta-Nokto themed, cuz I didn't like the base VLC interface even after dressing it up in Adapta-Nokto theme. This instead gives a sleek minimal feel that really modernises VLC. To use this, go to
 
     VLC -> Tools -> Preferences -> Use Custom Skin -> choose this file
 
@@ -56,22 +56,30 @@ This is probably the only thing in here that is not Adapta-Nokto themed, cuz I d
 
 ## Qt5 applications
 
-Since Adapta-Nokto used here is a GTK+ theme (and I use Cinnamon with mostly Gnome apps), we need to force all Qt5 to use the GTK2 theme with the help of the *Qt5 Configurator Tool*.
+Since Adapta-Nokto used here is a GTK+ theme (and I use Cinnamon with mostly Gnome apps), we need to force all Qt5 to use the GTK2 theme with the help of the _Qt5 Configurator Tool_.
 
 - Install the `qt5ct` and `qt5-styleplugins` packages
 
 - Add the following to `~/.profile` or `/etc/environment`
 
-    ```
-    # Qt5 configurator
-    QT_QPA_PLATFORMTHEME=qt5ct
-    ```
+  ```
+  # Qt5 configurator
+  QT_QPA_PLATFORMTHEME=qt5ct
+  ```
 
 - Reboot
 
 - run `qt5ct` and set style to `gtk2`
 
 ## Suggested themes that are not included in this repo
+
+### Icons
+
+Adapta suggests you go with the [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme), but I personally use [Sweet Rainbow Folders](https://github.com/EliverLara/Sweet-folders) with [Candy Icons](https://github.com/EliverLara/candy-icons) cuz I like the neon aesthetics (but the [Sweet theme](https://github.com/EliverLara/Sweet) was a little too much for me)
+
+### Cursors
+
+[Material Cursors](https://github.com/varlesh/material-cursors), default version.
 
 ### VS Code
 
@@ -81,10 +89,6 @@ The `Adapted` Extension gives proper Adapta-Nokto styling
 
 Install the `Material Theme UI` plugin, then select the `Oceanic` theme
 
-### Icons
+### Firefox
 
-Adapta suggests you go with the [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme), but I personally use [Sweet Rainbow Folders](https://github.com/EliverLara/Sweet-folders) with [Candy Icons](https://github.com/EliverLara/candy-icons) cuz I like the neon aesthetics (but the [Sweet theme](https://github.com/EliverLara/Sweet) was a little too much for me)
-
-### Cursors
-
-[Material Cursors](https://github.com/varlesh/material-cursors), default version.
+You can use the [Firefox Color Plugin](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/) along with [Adapta Nokto theme](https://color.firefox.com/?theme=XQAAAALUAAAAAAAAAABBKYhm849SCiazH1KEGccwS-xNVAVNrWV6_89xtxNWy3sM0X99YG7itotZ8sB9kkK0owJCyKXJNAryj9IJU_wtu72r-X3skC4prCeW-fnJweq-4xu9tLmeXj8UkSdZGnzwrWVCNr3bToa6Zufrkj2b7e0PqstuOnN1gdAzjKSHwEJvdQThz-ruhge78cW2PaG0mCwQPvE72cX8OQiA) to apply the theme to Firefox.
