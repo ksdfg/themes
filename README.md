@@ -54,6 +54,10 @@ This is probably the only thing in here that is not Adapta-Nokto themed, cuz I d
 
 [No repo found for this, but I think this download link is the original source](https://www.deviantart.com/maverick07x/art/VLC-MinimalX-385698882)
 
+### Custom Tray Icons
+
+Since some tray icons are not supported by my icon pack of choice (given below), the `custom-icons` folder contains custom tray icons made by taking icons from the icon pack and [iconfu](https://www.iconfu.com/). Installer scripts for the applications are also included in the app specific folders, along with the old and new icons.
+
 ## Qt5 applications
 
 Since Adapta-Nokto used here is a GTK+ theme (and I use Cinnamon with mostly Gnome apps), we need to force all Qt5 to use the GTK2 theme with the help of the _Qt5 Configurator Tool_.
