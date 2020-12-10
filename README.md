@@ -56,7 +56,7 @@ This is probably the only thing in here that is not Adapta-Nokto themed, cuz I d
 
 ### Custom Tray Icons
 
-Since some tray icons are not supported by my icon pack of choice (given below), the `custom-icons` folder contains custom tray icons made by taking icons from the icon pack and [iconfu](https://www.iconfu.com/). Installer scripts for the applications are also included in the app specific folders, along with the old and new icons.
+Since some tray icons are not supported by my icon pack of choice (given below), the `custom-icons` folder contains custom tray icons made by taking icons from the icon pack and [iconfu](https://www.iconfu.com/). Scripts for updating as well as resetting the tray icons are also included in the app specific folders, along with the old and new icons.
 
 ## Qt5 applications
 
