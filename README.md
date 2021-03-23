@@ -10,6 +10,14 @@ I made this repo so that I can quickly setup my system in case of a reinstall / 
 
 The basic GTK3 Theme that the system follows. Uses Material design with a cyan-blue color scheme. Downloaded from the Cinnamon Themes centre.
 
+Added the Plank theme from source repository. To install, run
+```shell
+mkdir ~/.local/share/plank/themes/Adapta
+ln -s Adapta-Nokto/Plank/dock.theme ~/.local/share/plank/themes/Adapta/dock.theme
+```
+And then select the theme from Preferences.
+
+
 [The original source can be found here](https://github.com/adapta-project/adapta-gtk-theme).
 
 ### GRUB2 theme
