@@ -22,8 +22,6 @@ install.sh --slaze
 
 and it will generate all the config files and install the theme for you. A readme (from the original repo) is present in the folder with more detailed instructions.
 
-[The original source can be found here](https://github.com/vinceliuice/grub2-themes)
-
 ### Mailspring Material Adapted
 
 An Adapta-Nokto based Material theme for the Mailspring mail client. You can just go to
@@ -35,8 +33,6 @@ and Mailspring will install this theme. You do not need this folder after instal
     Mailspring -> Edit -> Change theme -> select `Material`
 
 Maybe not the best visibility wise, but I can live with it and tbh can't find anything better or even close to this.
-
-[The original source can be found here](https://github.com/ferlanero/mailspring-material-adapted)
 
 ### Adapta Nokto tdesktop-theme
 
