@@ -50,6 +50,12 @@ Adapta Nokto theme for Telegram Desktop application, with a few colour correctio
 
 [The original source can be found here](https://github.com/fabiom/adapta-nokto-telegram-desktop)
 
+### Cairo Dock Theme
+
+Adapta based theme for Cairo Dock that I made completely on my own (i.e. low effort af). To install, 
+
+    open configuration window -> Themes -> Load theme -> upload theme tar
+
 ### MinimalX VLC
 
 This is probably the only thing in here that is not Adapta-Nokto themed, cuz I didn't like the base VLC interface even after dressing it up in Adapta-Nokto theme. This instead gives a sleek minimal feel that really modernises VLC. To use this, go to
