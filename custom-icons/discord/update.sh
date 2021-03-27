@@ -30,7 +30,7 @@ declare -a arr=(
 )
 
 echo "Extracting core.asar..."
-cd $HOME/.config/discord/0.0.13/modules/discord_desktop_core
+cd $HOME/.config/discord/0.*/modules/discord_desktop_core
 cp core.asar /tmp/core.asar
 asar e /tmp/core.asar /tmp/core
 
