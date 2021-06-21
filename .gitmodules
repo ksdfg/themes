@@ -4,3 +4,9 @@
 [submodule "mailspring-material-adapted"]
 	path = mailspring-material-adapted
 	url = git@github.com:ferlanero/mailspring-material-adapted.git
+[submodule "firefox-sweet-theme"]
+	path = firefox-sweet-theme
+	url = git@github.com:EliverLara/firefox-sweet-theme.git
+[submodule "Sweet-Mailspring"]
+	path = Sweet-Mailspring
+	url = git@github.com:Chroxify/Sweet-Mailspring.git
