@@ -20,15 +20,17 @@ And then select the theme from Preferences.
 
 [The original source can be found here](https://github.com/adapta-project/adapta-gtk-theme).
 
-### GRUB2 theme
+### CyberRe theme
 
-I use the `Slaze` theme from this pack. To install it, simply run
+A cool theme for GRUB. To install it, simply run
 
 ```shell
-install.sh --slaze
+sudo install.sh
 ```
 
-and it will generate all the config files and install the theme for you. A readme (from the original repo) is present in the folder with more detailed instructions.
+and it will generate all the config files and install the theme for you.
+
+[Couldn't find the actual source code anywhere on github, so here's the KDE store link](https://store.kde.org/p/1420727).
 
 ### Mailspring Material Adapted
 
