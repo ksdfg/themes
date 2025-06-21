@@ -7,3 +7,6 @@
 [submodule "Sweet-Mailspring"]
 	path = Sweet-Mailspring
 	url = git@github.com:Chroxify/Sweet-Mailspring.git
+[submodule "Layan-kde"]
+	path = Layan-kde
+	url = git@github.com:vinceliuice/Layan-kde.git
