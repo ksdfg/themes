@@ -10,3 +10,9 @@
 [submodule "Layan-kde"]
 	path = Layan-kde
 	url = git@github.com:vinceliuice/Layan-kde.git
+[submodule "WhiteSur-kde"]
+	path = WhiteSur-kde
+	url = git@github.com:vinceliuice/WhiteSur-kde.git
+[submodule "Layan-gtk-theme"]
+	path = Layan-gtk-theme
+	url = git@github.com:vinceliuice/Layan-gtk-theme.git
